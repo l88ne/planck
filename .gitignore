@@ -5,10 +5,10 @@
 config.log
 .sconf_temp
 
-bin/
-!bin/.keep
+bin/*
+!bin/.gitkeep
 
-etc/kernel.bin
+etc/isoroot/boot/kernel.bin
 
-obj/
-!obj/.keep
+obj/*
+!obj/.gitkeep
